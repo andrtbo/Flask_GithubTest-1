@@ -19,6 +19,9 @@ def stocks():
     return render_template('stocks.html', stocks=stocks)
 
 
+@app.route('/stocks')
+def team3m1():
+    print("Andrew")
 
 if __name__ == "__main__": app.run(debug=True)
 
